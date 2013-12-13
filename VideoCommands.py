@@ -1,17 +1,17 @@
 import os
 def run_things(address):
-	myfile="playingvid.mp4"
-	try:
-		os.remove(myfile)
-	except OSError:
-		k=2
+    myfile="playingvid.mp4"
+    try:
+        os.remove(myfile)
+    except OSError:
+        k=2
 
-	os.system('youtube-dl -o playingvid.mp4 %s'%address)
-	os.system('gnome-open playingvid.mp4')
+    os.system('youtube-dl -o playingvid.mp4 %s'%address)
+    os.system('gnome-open playingvid.mp4')
  
 	
 if __name__ == '__main__':
-		run_things('http://www.youtube.com/watch?v=kZUPCB9533Y')
+    run_things('http://www.youtube.com/watch?v=kZUPCB9533Y')
 
 #sudo pip install --upgrade youtube_dl
 #sudo apt-get install libgnome2-0
