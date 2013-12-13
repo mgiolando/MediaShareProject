@@ -14,6 +14,9 @@ if __name__ == '__main__':
 		run_things('http://www.youtube.com/watch?v=kZUPCB9533Y')
 
 #sudo pip install --upgrade youtube_dl
+#sudo apt-get install libgnome2-0
+
+
 
 #youtube-dl -o panda.mp4 "http://www.youtube.com/watch?v=u155ncSlkCk"
 
