@@ -1,24 +1,5 @@
 import os
 def run_things(address):
-<<<<<<< HEAD
-    myfile="playingvid.mp4"
-    try:
-        os.remove(myfile)
-    except OSError:
-        k=2
-
-    os.system('youtube-dl -o playingvid.mp4 %s'%address)
-    os.system('gnome-open playingvid.mp4')
- 
-	
-if __name__ == '__main__':
-    run_things('http://www.youtube.com/watch?v=kZUPCB9533Y')
-
-#sudo pip install --upgrade youtube_dl
-#sudo apt-get install libgnome2-0
-
-
-=======
 	myfile="playingvid.mp4"
 	try:
 		os.remove(myfile)
@@ -33,7 +14,6 @@ if __name__ == '__main__':
 		run_things('http://www.youtube.com/watch?v=kZUPCB9533Y')
 
 #sudo pip install --upgrade youtube_dl
->>>>>>> vicupstream2/master
 
 #youtube-dl -o panda.mp4 "http://www.youtube.com/watch?v=u155ncSlkCk"
 
